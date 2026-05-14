@@ -1,0 +1,184 @@
+**AI + business usefulness + Canadian SMB + practical delivery**。
+
+我建议不要大改首页，只做两件事：
+
+# 1. 菜单增加一项
+
+现在菜单：
+
+```text
+HOME | SOLUTIONS | PROJECTS | BLOG | PROFILE | CONTACT
+```
+
+建议改成：
+
+```text
+HOME | SOLUTIONS | TRAINING | PROJECTS | BLOG | PROFILE | CONTACT
+```
+
+中文菜单可用：
+
+```text
+首页 | 解决方案 | 企业培训 | 项目案例 | 博客 | 关于 | 联系
+```
+
+英文建议用 **TRAINING**，不要用 “COURSES”。
+因为你要卖给企业和 Ontario Job Grant 场景，Training 更像 workforce upskilling。
+
+# 2. 首页新增一个板块
+
+位置建议放在：
+
+**“Choose The Direction That Fits” 后面，Why Choose Us 前面。**
+
+因为首页前面已经讲了三大方向：
+
+* Open Revenue
+* Reduce Cost
+* Launch New Offers
+
+企业培训刚好可以作为第四个入口，但不要抢主业务。
+
+板块标题建议：
+
+```text
+AI Workforce Training
+```
+
+副标题：
+
+```text
+Practical AI training for teams that need to improve daily operations, customer work, marketing output, and internal productivity.
+```
+
+三张卡片：
+
+```text
+AI Operations Training
+Order management, customer workflows, inventory processes, and internal reporting.
+
+AI Marketing & Content Training
+AI-assisted campaign planning, content generation, social media workflow, and publishing automation.
+
+AI Automation Readiness
+Help teams understand where AI fits, what should be automated, and how to use AI responsibly.
+```
+
+按钮：
+
+```text
+View Corporate Training
+```
+
+或者：
+
+```text
+Explore Training Programs
+```
+
+# 首页板块英文文案，可直接用
+
+```html
+<section class="training-section">
+  <div class="container">
+    <span class="section-label">Corporate Training</span>
+    <h2>AI Workforce Training For Practical Business Operations</h2>
+    <p>
+      Flash Coding helps Canadian small and mid-sized businesses train their teams to use AI in real workflows, including order management, marketing, customer communication, inventory operations, and content publishing.
+    </p>
+
+    <div class="training-grid">
+      <div class="training-card">
+        <h3>AI Operations Training</h3>
+        <p>
+          Train staff to improve order workflows, customer follow-up, inventory visibility, reporting, and repetitive office operations.
+        </p>
+      </div>
+
+      <div class="training-card">
+        <h3>AI Marketing & Content Training</h3>
+        <p>
+          Help teams use AI for campaign planning, content generation, social media workflow, and automated publishing support.
+        </p>
+      </div>
+
+      <div class="training-card">
+        <h3>AI Automation Readiness</h3>
+        <p>
+          Build team understanding of where AI fits, what should be automated, and how to use AI responsibly in daily work.
+        </p>
+      </div>
+    </div>
+
+    <a href="/training" class="primary-btn">Explore Corporate Training</a>
+  </div>
+</section>
+```
+
+# 新增页面建议
+
+先只加一个页面：
+
+```text
+/training
+```
+
+不要一开始做太多页面。
+
+页面结构：
+
+```text
+Corporate AI Workforce Training
+- Overview
+- Who This Is For
+- Training Programs
+  1. AI Order Management
+  2. AI Marketing Management
+  3. AI Customer Management
+  4. AI Inventory Management
+  5. AI Content Generation & Automated Publishing
+- Delivery Formats
+- Employer Documentation Available
+- Contact Form
+```
+
+# 中文定位
+
+官网中文页建议写：
+
+```text
+企业 AI 培训
+```
+
+不要写：
+
+```text
+政府补贴培训
+```
+
+可以写得更稳一点：
+
+```text
+可为企业提供课程大纲、报价单、出勤记录和结业证明等培训文件，方便企业用于内部审批或相关 workforce training program 申请。
+```
+
+这样不会显得你在保证政府一定批。
+
+# 最佳策略
+
+首页只加一个板块。
+菜单只加 **TRAINING / 企业培训**。
+正式课程内容放 `/training` 页面。
+不要把 Ontario Job Grant 放首页主视觉，避免显得太“蹭补贴”。
+
+你的官网现在主线是：
+
+```text
+AI truly useful for business
+```
+
+企业培训板块应该承接成：
+
+```text
+Teach your team to actually use AI in daily work.
+```
