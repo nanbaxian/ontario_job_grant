@@ -1,184 +1,122 @@
-**AI + business usefulness + Canadian SMB + practical delivery**。
+FlashCoding.ca Website Update Brief
 
-我建议不要大改首页，只做两件事：
+Purpose
+- Add a clear corporate training entry point to the current FlashCoding website.
+- Keep the existing main positioning intact: AI that is genuinely useful for business.
+- Support Ontario Job Grant related employer-facing training messaging without making the homepage look like a government subsidy page.
 
-# 1. 菜单增加一项
+Business Context
+- FlashCoding is a Canadian SMB-focused website and systems company.
+- The new training offering should feel like a natural extension of the current business, not a separate company.
+- The website should communicate practical workforce AI training for business operations, marketing, customer communication, inventory, and content workflows.
 
-现在菜单：
+Primary Goal
+- Introduce a dedicated training section that helps employers understand what FlashCoding teaches, who it is for, and how the training is delivered.
 
-```text
-HOME | SOLUTIONS | PROJECTS | BLOG | PROFILE | CONTACT
-```
+Recommended Scope
+1. Add one new top-level navigation item
+2. Add one new homepage section
+3. Add one new standalone page
 
-建议改成：
+Recommended Navigation
+- Current: HOME | SOLUTIONS | PROJECTS | BLOG | PROFILE | CONTACT
+- Update to: HOME | SOLUTIONS | TRAINING | PROJECTS | BLOG | PROFILE | CONTACT
 
-```text
-HOME | SOLUTIONS | TRAINING | PROJECTS | BLOG | PROFILE | CONTACT
-```
+Language guidance
+- Use `TRAINING` in English.
+- Use `企业培训` in Chinese.
+- Avoid `COURSES` if the intent is employer-facing workforce upskilling.
 
-中文菜单可用：
+Homepage Change
+- Add one new section on the homepage.
+- Suggested placement: after `Choose The Direction That Fits` and before `Why Choose Us`.
+- This section should be a secondary entry point, not the main hero.
 
-```text
-首页 | 解决方案 | 企业培训 | 项目案例 | 博客 | 关于 | 联系
-```
+Homepage Section Positioning
+- Title: AI Workforce Training
+- Subtitle: Practical AI training for teams that need to improve daily operations, customer work, marketing output, and internal productivity.
 
-英文建议用 **TRAINING**，不要用 “COURSES”。
-因为你要卖给企业和 Ontario Job Grant 场景，Training 更像 workforce upskilling。
+Homepage Section Content
+- AI Operations Training
+  - Order management, customer workflows, inventory processes, and internal reporting.
+- AI Marketing & Content Training
+  - AI-assisted campaign planning, content generation, social media workflow, and publishing automation.
+- AI Automation Readiness
+  - Help teams understand where AI fits, what should be automated, and how to use AI responsibly.
 
-# 2. 首页新增一个板块
+Homepage CTA
+- Button text: View Corporate Training
+- Alternative text: Explore Training Programs
+- CTA should link to the new training page.
 
-位置建议放在：
+New Page
+- Add one dedicated page: `/training`
+- Keep the page focused and practical.
+- Do not create too many new pages at the start.
 
-**“Choose The Direction That Fits” 后面，Why Choose Us 前面。**
+Training Page Structure
+1. Overview
+2. Who This Is For
+3. Training Programs
+4. Delivery Formats
+5. Employer Documentation Available
+6. Contact Form
 
-因为首页前面已经讲了三大方向：
+Suggested Training Programs
+1. AI Order Management
+2. AI Marketing Management
+3. AI Customer Management
+4. AI Inventory Management
+5. AI Content Generation & Automated Publishing
 
-* Open Revenue
-* Reduce Cost
-* Launch New Offers
+Recommended Positioning
+- Use: Corporate AI Workforce Training
+- Use: Practical AI training for business teams
+- Use: Workforce upskilling
+- Avoid overly grant-driven language on the public page
 
-企业培训刚好可以作为第四个入口，但不要抢主业务。
+Suggested Public Copy Direction
+- FlashCoding provides practical AI workforce training for Canadian small and mid-sized businesses.
+- The training helps teams improve productivity, reduce repetitive work, and build responsible AI usage habits.
+- Training can include course outlines, quotations, attendance records, and completion evidence for employer records.
 
-板块标题建议：
+What Not To Do
+- Do not make Ontario Job Grant the main headline of the homepage.
+- Do not replace the existing corporate website positioning.
+- Do not turn the site into a government-program landing page.
+- Do not expand into many new pages before the first training page is live.
 
-```text
-AI Workforce Training
-```
+SEO Guidance
+- Keep the public page clear and easy to quote.
+- Use strong headings and short explanatory sections.
+- Include FAQ content if possible.
+- Make sure the page title and description clearly mention corporate training and AI workforce training.
+- Keep the content aligned with the current business identity and service history.
 
-副标题：
+Suggested SEO Titles
+- FlashCoding | Corporate AI Workforce Training
+- Practical AI Workforce Training for Canadian Businesses
+- AI Training for Business Teams | FlashCoding
 
-```text
-Practical AI training for teams that need to improve daily operations, customer work, marketing output, and internal productivity.
-```
+Suggested SEO Description
+- FlashCoding provides practical AI workforce training for Canadian businesses, including operations, marketing, customer workflows, inventory, and content automation.
 
-三张卡片：
+Acceptance Criteria
+- The homepage shows a new training entry point.
+- The top navigation includes `TRAINING`.
+- The new training page exists at `/training`.
+- The page explains what FlashCoding teaches in practical business terms.
+- The page supports employer-facing training conversations.
+- The page does not dilute the current main website identity.
 
-```text
-AI Operations Training
-Order management, customer workflows, inventory processes, and internal reporting.
+Implementation Priority
+1. Navigation update
+2. Homepage training section
+3. Training page creation
+4. SEO metadata
+5. Contact form wiring if needed
 
-AI Marketing & Content Training
-AI-assisted campaign planning, content generation, social media workflow, and publishing automation.
-
-AI Automation Readiness
-Help teams understand where AI fits, what should be automated, and how to use AI responsibly.
-```
-
-按钮：
-
-```text
-View Corporate Training
-```
-
-或者：
-
-```text
-Explore Training Programs
-```
-
-# 首页板块英文文案，可直接用
-
-```html
-<section class="training-section">
-  <div class="container">
-    <span class="section-label">Corporate Training</span>
-    <h2>AI Workforce Training For Practical Business Operations</h2>
-    <p>
-      Flash Coding helps Canadian small and mid-sized businesses train their teams to use AI in real workflows, including order management, marketing, customer communication, inventory operations, and content publishing.
-    </p>
-
-    <div class="training-grid">
-      <div class="training-card">
-        <h3>AI Operations Training</h3>
-        <p>
-          Train staff to improve order workflows, customer follow-up, inventory visibility, reporting, and repetitive office operations.
-        </p>
-      </div>
-
-      <div class="training-card">
-        <h3>AI Marketing & Content Training</h3>
-        <p>
-          Help teams use AI for campaign planning, content generation, social media workflow, and automated publishing support.
-        </p>
-      </div>
-
-      <div class="training-card">
-        <h3>AI Automation Readiness</h3>
-        <p>
-          Build team understanding of where AI fits, what should be automated, and how to use AI responsibly in daily work.
-        </p>
-      </div>
-    </div>
-
-    <a href="/training" class="primary-btn">Explore Corporate Training</a>
-  </div>
-</section>
-```
-
-# 新增页面建议
-
-先只加一个页面：
-
-```text
-/training
-```
-
-不要一开始做太多页面。
-
-页面结构：
-
-```text
-Corporate AI Workforce Training
-- Overview
-- Who This Is For
-- Training Programs
-  1. AI Order Management
-  2. AI Marketing Management
-  3. AI Customer Management
-  4. AI Inventory Management
-  5. AI Content Generation & Automated Publishing
-- Delivery Formats
-- Employer Documentation Available
-- Contact Form
-```
-
-# 中文定位
-
-官网中文页建议写：
-
-```text
-企业 AI 培训
-```
-
-不要写：
-
-```text
-政府补贴培训
-```
-
-可以写得更稳一点：
-
-```text
-可为企业提供课程大纲、报价单、出勤记录和结业证明等培训文件，方便企业用于内部审批或相关 workforce training program 申请。
-```
-
-这样不会显得你在保证政府一定批。
-
-# 最佳策略
-
-首页只加一个板块。
-菜单只加 **TRAINING / 企业培训**。
-正式课程内容放 `/training` 页面。
-不要把 Ontario Job Grant 放首页主视觉，避免显得太“蹭补贴”。
-
-你的官网现在主线是：
-
-```text
-AI truly useful for business
-```
-
-企业培训板块应该承接成：
-
-```text
-Teach your team to actually use AI in daily work.
-```
+Notes
+- This brief is intended for website execution, not for grant application language.
+- Keep the tone business-first, practical, and employer-friendly.
+- The training section should read like a real service offering, not a funding pitch.
